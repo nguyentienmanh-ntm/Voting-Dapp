@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "VotingDapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.3.0",
-    "next": "13.3.0",
+    "@openzeppelin/contracts": "^4.7.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "ipfs-http-client": "^57.0.3",
+    "next": "12.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-countdown": "^2.3.2",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-icons": "^4.4.0",
+    "web3modal": "^1.9.8"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.13.0"
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "hardhat": "^2.10.0"
   }
 }
